@@ -1,7 +1,7 @@
 #lang scheme
 
 #|
-
+帕斯卡三角形
 公式
 row!/(col! * (row - col)!)
 |#

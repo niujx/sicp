@@ -3,6 +3,8 @@
     (cc amount 5))
 
 (define (cc amount kinds-of-coins)
+    (display "run !")  
+    (newline)
     (cond ((= amount 0) 1)
           ((or (< amount 0) (= kinds-of-coins 0)) 0)
           (else (+ (cc amount
@@ -18,4 +20,4 @@
           ((= kinds-of-coins 4) 25)
           ((= kinds-of-coins 5) 50)))
 
-(count-change 6)
+(count-change 11)  
