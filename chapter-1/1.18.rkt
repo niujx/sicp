@@ -1,5 +1,4 @@
 #lang scheme
-# 俄罗斯农民法
 (define (russia a b c)
    (cond ((= b 0) c)
          ((even? b) (russia ( * a 2) (div b) c))
