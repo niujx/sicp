@@ -8,7 +8,7 @@
 (define (square x) (* x x))
 
 #|
- 一个数a的幕对另外一个数b取摸 如果等于b 则b很有可能是素数
+ 一个数a的b的次方对另外一个数b取摸 如果等于b 则b很有可能是素数
 |#
 (define (expmod base exp m)
    (cond ((= exp 0) 1)
@@ -32,4 +32,4 @@
 
 )
 
-(fast-prime? 12222 3)
+(fast-prime? 19999 3)
